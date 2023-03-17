@@ -1,0 +1,124 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: #000;
+    background-color: #f4d275;
+    height: 100%;
+    margin: 0;
+    opacity: 1;
+    background-size: 72px 72px;
+    background-image: repeating-linear-gradient(to right, #e3ae57, #e3ae57 3.6px, #f4d275 3.6px, #f4d275);
+}
+
+.wrapper {
+    min-height: 100%;
+
+
+    margin: 0 auto -850px;
+}
+
+.footer,
+.push {
+    height: 600px;
+}
+
+footer {
+    background-color: #5e2b21;
+}
+
+/* calculator styling*/
+
+.calculator {
+    background-color: #e2dfdc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 7px 7px 2px 0px rgb(67, 67, 67);
+    position: relative;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+h1 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.display {
+    background-color: #bebfa3;
+    color: #131208;
+    padding: 10px;
+    border: 7px solid #0f0e0c;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 32px;
+    box-shadow: inset 5px -5px 0px 0px rgba(121, 136, 126, 1);
+}
+
+/* keys styling */
+.keys button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #5a5a5a;
+    color: #f9e9c0;
+    padding: 10px;
+    opacity: 1;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px rgba(66, 66, 66, 0.5);
+}
+
+button.operator.red {
+    background-color: #c7573e;
+}
+
+button.operator.orange {
+    background-color: #cfa24c;
+}
+
+button.operator.purple {
+    background-color: #a39eaa;
+}
+
+.keys button:hover {
+    opacity: 0.85;
+    box-shadow: inset 4px 4px 0px 0px rgba(66, 66, 66, 0.5);
+}
+
+.keys button:active {
+    background-color: #d8a504;
+}
+
+.operator {
+    background-color: #ff6c6c;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+button:focus {
+    outline: none;
+}

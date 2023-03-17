@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <title>Calculator App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <h1 class="left">Leonardo DiCasio </h1>
+            <h1 class="right">1984</h1>
+            <hr/>
+            <div class="display">
+                <span id="result">0</span>
+            </div>
+            <div class="keys">
+                <button class="operator red" onclick="clearResult()">C</button>
+                <button class="operator orange" onclick="addToResult('%')">%</button>
+                <button class="operator orange" onclick="addToResult('/')">/</button>
+                <button class="operator orange" onclick="addToResult('*')">*</button>
+
+                <button onclick="addToResult(7)">7</button>
+                <button onclick="addToResult(8)">8</button>
+                <button onclick="addToResult(9)">9</button>
+                <button class="operator orange" onclick="addToResult('-')">-</button>
+
+                <button onclick="addToResult(4)">4</button>
+                <button onclick="addToResult(5)">5</button>
+                <button onclick="addToResult(6)">6</button>
+                <button class="operator orange" onclick="addToResult('+')">+</button>
+
+                <button onclick="addToResult(1)">1</button>
+                <button onclick="addToResult(2)">2</button>
+                <button onclick="addToResult(3)">3</button>
+                <button class="operator orange" onclick="addToResult('(')">[</button>
+                
+
+                <button onclick="addToResult(0)">0</button>
+                <button onclick="addToResult('.')">.</button>
+                <button class="operator purple" onclick="calculateResult()">=</button>
+                <button class="operator orange" onclick="addToResult(')')">]</button>
+                
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>
+    <footer class="footer"></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
