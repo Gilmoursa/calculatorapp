@@ -12,5 +12,5 @@ function clearResult() {
 }
 
 function calculateResult() {
-    result.innerHTML = eval(result.innerHTML);
+    result.innerHTML = eval(result.innerHTML).toFixed(7);
 }

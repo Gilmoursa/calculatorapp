@@ -19,12 +19,12 @@ body {
     min-height: 100%;
 
 
-    margin: 0 auto -850px;
+    margin: 0 auto -700px;
 }
 
 .footer,
 .push {
-    height: 600px;
+    height: 450px;
 }
 
 footer {
