@@ -16,19 +16,8 @@ body {
 }
 
 .wrapper {
-    min-height: 100%;
 
-
-    margin: 0 auto -700px;
-}
-
-.footer,
-.push {
-    height: 450px;
-}
-
-footer {
-    background-color: #5e2b21;
+    margin: 0 auto 0px;
 }
 
 /* calculator styling*/
@@ -39,7 +28,7 @@ footer {
     border-radius: 10px;
     width: 300px;
     margin: 50px auto;
-    box-shadow: 7px 7px 2px 0px rgb(67, 67, 67);
+    box-shadow: 5px -5px 2px 5px rgb(155, 155, 155);
     position: relative;
 }
 
